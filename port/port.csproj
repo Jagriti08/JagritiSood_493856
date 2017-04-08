@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5CF9B600-C67A-4124-9205-62C7B8005E05}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>port</RootNamespace>
+    <AssemblyName>port</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="javascripts\admin.js" />
+    <Content Include="javascripts\frontend.js" />
+    <Content Include="javascripts\JavaScript1.js" />
+    <Content Include="javascripts\typed.js" />
+    <Content Include="MyResume\css\animate.css" />
+    <Content Include="MyResume\css\animate.min.css" />
+    <Content Include="MyResume\css\bootstrap-theme.css" />
+    <Content Include="MyResume\css\bootstrap-theme.min.css" />
+    <Content Include="MyResume\css\bootstrap.css" />
+    <Content Include="MyResume\css\bootstrap.min.css" />
+    <Content Include="MyResume\css\font-awesome.css" />
+    <Content Include="MyResume\css\font-awesome.min.css" />
+    <Content Include="MyResume\css\style.css" />
+    <Content Include="MyResume\fonts\fontawesome-webfont.svg" />
+    <Content Include="MyResume\img\1.jpg" />
+    <Content Include="MyResume\img\loading.gif" />
+    <Content Include="MyResume\img\logo.png" />
+    <Content Include="MyResume\img\team\26.jpg" />
+    <Content Include="MyResume\img\team\wireless.jpg" />
+    <Content Include="MyResume\img\work\99.jpg" />
+    <Content Include="MyResume\img\work\af.gif" />
+    <Content Include="MyResume\img\work\Andro.jpg" />
+    <Content Include="MyResume\img\work\b.jpg" />
+    <Content Include="MyResume\img\work\Capture-d’écran.png" />
+    <Content Include="MyResume\img\work\corinne-kutz-211251.jpg" />
+    <Content Include="MyResume\img\work\giphy %283%29.mp4" />
+    <Content Include="MyResume\img\work\giphy %284%29.mp4" />
+    <Content Include="MyResume\img\work\giphy %285%29.mp4" />
+    <Content Include="MyResume\img\work\Haptic.jpg" />
+    <Content Include="MyResume\img\work\IETE-New_Logo_Blue.jpg" />
+    <Content Include="MyResume\img\work\images.jpg" />
+    <Content Include="MyResume\img\work\kuka-bible-2.jpg" />
+    <Content Include="MyResume\img\work\KUKA.jpg" />
+    <Content Include="MyResume\img\work\Panjab University.jpg" />
+    <Content Include="MyResume\img\work\robonaut_0.jpg" />
+    <Content Include="MyResume\img\work\Tal.jpg" />
+    <Content Include="MyResume\index.html" />
+    <Content Include="MyResume\js\bootstrap.js" />
+    <Content Include="MyResume\js\bootstrap.min.js" />
+    <Content Include="MyResume\js\classie.js" />
+    <Content Include="MyResume\js\colorfinder.js" />
+    <Content Include="MyResume\js\common.js" />
+    <Content Include="MyResume\js\contact.js" />
+    <Content Include="MyResume\js\easing.js" />
+    <Content Include="MyResume\js\gallery.js" />
+    <Content Include="MyResume\js\gridscroll.js" />
+    <Content Include="MyResume\js\imgloaded.js" />
+    <Content Include="MyResume\js\jquery.js" />
+    <Content Include="MyResume\js\masonry.js" />
+    <Content Include="MyResume\js\menustick.js" />
+    <Content Include="MyResume\js\modernizr.js" />
+    <Content Include="MyResume\js\parallax.js" />
+    <Content Include="MyResume\js\smoothscroll.js" />
+    <Content Include="MyResume\js\wow.js" />
+    <Content Include="Pics\1.jpg" />
+    <Content Include="Pics\15.jpg" />
+    <Content Include="Pics\26.jpg" />
+    <Content Include="Pics\3.jpg" />
+    <Content Include="Pics\alexandru-zdrobau-84424.jpg" />
+    <Content Include="Pics\crew-56835.jpg" />
+    <Content Include="Pics\giphy %282%29.mp4" />
+    <Content Include="Pics\nick-hillier-215633.jpg" />
+    <Content Include="Pics\Road_at_Sunrise.mp4" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="packages.config" />
+    <Content Include="MyResume\css\bootstrap.css.map" />
+    <Content Include="MyResume\css\bootstrap-theme.css.map" />
+    <Content Include="MyResume\fonts\FontAwesome.otf" />
+    <Content Include="MyResume\fonts\fontawesome-webfont.eot" />
+    <Content Include="MyResume\fonts\fontawesome-webfont.ttf" />
+    <Content Include="MyResume\fonts\fontawesome-webfont.woff" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.2.0.min.js" />
+    <Content Include="Scripts\jquery.easing.1.3.js" />
+    <Content Include="Scripts\npm.js" />
+    <Content Include="scrolling\content\bootstrap.css" />
+    <Content Include="scrolling\content\bootstrap.min.css" />
+    <Content Include="scrolling\content\scrolling-nav.css" />
+    <Content Include="scrolling\script\bootstrap.js" />
+    <Content Include="scrolling\script\bootstrap.min.js" />
+    <Content Include="scrolling\script\jquery.easing.min.js" />
+    <Content Include="scrolling\script\jquery.js" />
+    <Content Include="scrolling\script\scrolling-nav.js" />
+    <Content Include="stylesheets\StyleSheet1.css" />
+    <Content Include="stylesheets\StyleSheet2.css" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65004</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:65004/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
